@@ -1,10 +1,12 @@
 body{
-    background: lawngreen;
+    background-image: url("../images/circle-blues.png");
     display: grid;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr, 960px, 1fr;
-    grid-template-rows: auto, 20px, 1fr, 20px, auto;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr 960px 1fr;
+    grid-template-rows: auto 1fr auto 1fr auto;
     grid-template-areas: 
         "header header header"
         ". . ."
